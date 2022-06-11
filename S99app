@@ -1,10 +1,10 @@
 #!/bin/sh
 case "$1" in
   start)
-    /bin/screen -d -m /opt/app/run.sh
+    /usr/bin/screen -d -m /opt/app/run.sh
     ;;
   stop)
-    /bin/screen -X -S 0 quit
+    /usr/bin/screen -X -S 0 quit
     ;;
   restart|reload)
     "$0" stop
