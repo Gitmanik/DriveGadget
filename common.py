@@ -1,7 +1,7 @@
 from PIL import ImageFont
 
 def make_font(name, size):
-    return ImageFont.truetype('fonts\\' + name, size)
+    return ImageFont.load_default()
 
 def draw_middle(draw, f, text, y, wrap=False):
     s = draw.textsize(text, font=f)
