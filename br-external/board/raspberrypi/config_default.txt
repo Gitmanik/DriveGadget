@@ -1,0 +1,12 @@
+start_file=start.elf
+fixup_file=fixup.dat
+
+kernel=zImage
+
+disable_overscan=1
+gpu_mem=32
+boot_delay=0
+boot_delay_ms=0
+disable_splash=1
+force_turbo=1
+dtparam=i2c_arm=on

@@ -1,6 +1,8 @@
 #!/bin/sh
 case "$1" in
   start)
+    modprobe i2c-dev
+    modprobe i2c-bcm2835
     /usr/bin/screen -d -m /opt/app/run.sh
     ;;
   stop)

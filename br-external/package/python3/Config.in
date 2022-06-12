@@ -1,0 +1,3 @@
+        source "package/python-smbus2/Config.in"
+        source "package/python-lumaoled/Config.in"
+        source "package/python-lumacore/Config.in"
