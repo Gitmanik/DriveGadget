@@ -1,5 +1,0 @@
-# md5, sha256 from https://pypi.org/pypi/smbus2/json
-md5  c561cbc6fb87fab7953b79e5aa148b81  smbus2-0.4.2.tar.gz
-sha256  634541ed794068a822fe7499f1577468b9d4641b68dd9bfb6d0eb7270f4d2a32  smbus2-0.4.2.tar.gz
-# Locally computed sha256 checksums
-sha256  6ee9cf18c3a75dd76fb549a4b607ae34eedc31a796c48157895e2ad28d66ce79  LICENSE

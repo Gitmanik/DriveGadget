@@ -1,6 +1,0 @@
-config BR2_PACKAGE_PYTHON_LUMACORE
-	bool "python-lumacore"
-	help
-	  testests
-
-	  https://github.com/rm-hull/luma.core
